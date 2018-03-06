@@ -35,7 +35,7 @@ class EasyVegan::CLI
 
       #trigger the correct search function with check. Check eventually calls on print_recipe_details (cli.search_by_category)
       check
-    elsif raw =="exit"
+    elsif raw == "exit"
       goodbye
     else
       puts "Sorry, please enter an appropriate integer."

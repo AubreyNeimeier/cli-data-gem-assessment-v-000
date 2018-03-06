@@ -4,6 +4,6 @@
 
 require_relative '../lib/easy_vegan'
 
-#use require_relative for any files within program. 
+#use require_relative for any files within program.
 
 EasyVegan::CLI.new.call
