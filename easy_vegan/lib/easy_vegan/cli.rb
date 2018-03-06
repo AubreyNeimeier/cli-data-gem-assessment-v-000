@@ -38,6 +38,7 @@ class EasyVegan::CLI
     elsif raw == "exit"
       goodbye
     else
+      binding.pry
       puts "Sorry, please enter an appropriate integer."
       menu
     end
