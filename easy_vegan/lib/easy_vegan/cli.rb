@@ -37,7 +37,7 @@ class EasyVegan::CLI
       check
     elsif raw == "exit"
       goodbye
-    else
+    elsif raw < EasyVegan::Scraper.scrape_categories.size
       binding.pry
       puts "Sorry, please enter an appropriate integer."
       menu
