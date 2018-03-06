@@ -132,8 +132,8 @@ class EasyVegan::CLI
         puts "Which category of recipes would you like to explore? You may type a category to explore or type exit."
         input_2 = gets.strip.to_i
         check
-      else 
-        "Please enter a valid integer"
+      else
+        puts "Please enter a valid integer"
         secondary_menu
       end
     end
